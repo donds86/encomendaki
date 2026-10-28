@@ -130,3 +130,7 @@ Os pedidos antigos continuam acessíveis. A migração `commerce-v1` amplia os s
 ## Bloqueio de dias na agenda
 
 Em Agenda, selecione uma data e use Marcar dia como indisponível ou Liberar este dia. O bloqueio é individual por estabelecimento, vale para o dia inteiro e não cancela nem altera pedidos já registrados. O calendário da loja desabilita datas bloqueadas e respeita a antecedência mínima dos produtos. A lista fica em commerce.blockedDates no catálogo versionado. O servidor consulta o catálogo atual dentro da transação do pedido e recusa datas bloqueadas mesmo quando o cliente estava com uma página antiga aberta; tentativas idempotentes de pedidos já registrados continuam retornando o pedido original.
+
+## Tema claro e escuro
+
+O botão no topo permite alternar a aparência em todas as telas. A preferência é salva localmente no navegador (encomendaki-color-mode) e sincronizada entre abas da mesma origem. Sem escolha salva, utiliza a preferência de cor do sistema. A preferência visual não altera o catálogo nem as configurações da empresa.
