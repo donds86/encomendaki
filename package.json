@@ -4,7 +4,7 @@
   "private": true,
   "description": "EncomendAki: encomendas multiempresa e licenciamento para revendas",
   "engines": {
-    "node": ">=24"
+    "node": ">=24.22.2 <25"
   },
   "scripts": {
     "start": "node --env-file-if-exists=.env server.cjs",

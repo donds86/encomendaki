@@ -1,6 +1,6 @@
 # EncomendAki
 
-Sistema de encomendas com servidor Node.js 24, PostgreSQL, login e três perfis: administrador global, revenda e estabelecimento. A loja pública usa catálogo, carrinho e etapas por produto e grava o pedido no banco antes de abrir a mensagem do WhatsApp.
+Sistema de encomendas com servidor Node.js 24.22.2 ou superior na linha 24, PostgreSQL, login e três perfis: administrador global, revenda e estabelecimento. A loja pública usa catálogo, carrinho e etapas por produto e grava o pedido no banco antes de abrir a mensagem do WhatsApp.
 
 ## Desenvolvimento local
 
@@ -134,3 +134,7 @@ Em Agenda, selecione uma data e use Marcar dia como indisponível ou Liberar est
 ## Tema claro e escuro
 
 O botão no topo permite alternar a aparência em todas as telas. A preferência é salva localmente no navegador (encomendaki-color-mode) e sincronizada entre abas da mesma origem. Sem escolha salva, utiliza a preferência de cor do sistema. A preferência visual não altera o catálogo nem as configurações da empresa.
+
+## Versão do runtime e bloqueio de login
+
+O projeto requer Node.js >=24.22.2 <25; Docker usa node:24.22.2-bookworm-slim. Após o deploy, a mensagem de inicialização informa process.version para conferir a versão realmente executada. O limite de login tem janela de até 15 minutos, com contadores distintos para estabelecimento e gestão; o contador por e-mail é limpo no sucesso. Respostas 429 incluem Retry-After e o tempo de espera. Os hashes de senha existentes não são modificados pelo deploy nem pela atualização do Node.js.
