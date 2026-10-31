@@ -138,3 +138,9 @@ O botão no topo permite alternar a aparência em todas as telas. A preferência
 ## Versão do runtime e bloqueio de login
 
 O projeto requer Node.js >=24.22.2 <25; Docker usa node:24.22.2-bookworm-slim. Após o deploy, a mensagem de inicialização informa process.version para conferir a versão realmente executada. O limite de login tem janela de até 15 minutos, com contadores distintos para estabelecimento e gestão; o contador por e-mail é limpo no sucesso. Respostas 429 incluem Retry-After e o tempo de espera. Os hashes de senha existentes não são modificados pelo deploy nem pela atualização do Node.js.
+
+## Auditoria e recuperação de contas
+
+O administrador global pode consultar Auditoria → Segurança e senhas, filtrando por e-mail ou empresa. Registros indicam quem realizou, a conta afetada, o perfil, o método e a data. Trocas pelo usuário, redefinições por gerenciador/console e emissão de links possuem ações próprias. Dados antigos não são reconstruídos retroativamente. Nenhuma senha, hash ou token de recuperação é devolvido pela auditoria.
+
+Quando o acesso ao gerenciador foi perdido, o operador autorizado do servidor pode executar scripts/recover-access.cjs com --email, --role admin|reseller|tenant e --inspect (somente consulta), --unlock-only (limite por e-mail), --reset (RECOVERY_PASSWORD temporário no processo) ou --link --base-url URL_HTTPS. O comando não cria contas nem muda perfis. --link emite link único de 30 minutos para /recuperar-acesso#TOKEN; apenas o hash fica no banco, e uma emissão invalida links anteriores da mesma conta. A senha é definida pelo titular na página; ao salvar, o token é consumido, sessões são revogadas e o evento é auditado. O endpoint de consumo exige mesma origem e tem limite de tentativas. Não há endpoint público de emissão de links. O bloqueio por IP, se existir, permanece até expirar.
