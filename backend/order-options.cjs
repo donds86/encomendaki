@@ -1,6 +1,6 @@
 'use strict';
 const {fail,text,validDate,today}=require('./domain.cjs');
-const stages=['Definição','Tamanho','Recheios','Sabores','Personalização','Detalhes','Perguntas','Revisão','Finalização'];
+const stages=['Definição','Tamanho','Recheios','Sabores','Personalização','Detalhes','Perguntas','Agendamento','Revisão','Finalização'];
 function amount(v){if(typeof v!=='number'||!Number.isFinite(v)||v<0||v>100000||Math.abs(v*100-Math.round(v*100))>1e-5)fail(400,'Adicional inválido');return v}
 function amounts(raw={}){if(!raw||typeof raw!=='object'||Array.isArray(raw)||Object.keys(raw).length>40)fail(400,'Adicionais por tamanho inválidos');return Object.fromEntries(Object.entries(raw).map(([id,v])=>[text(id,'Tamanho',80),amount(v)]))}
 function status(raw={}){if(!raw||typeof raw!=='object')fail(400,'Status inválido');return {active:raw.active!==false,available:raw.available!==false}}
