@@ -159,7 +159,7 @@ Quando o acesso ao gerenciador foi perdido, o operador autorizado do servidor po
 
 - **Clientes** funciona no Essencial e no Profissional: cadastro/edição manual, busca, WhatsApp, nascimento opcional, e-mail, observações e histórico de compras. Compras com telefone criam/atualizam o cliente; registros anteriores são incorporados na migração `customers-v1`, preservando os pedidos. Os dados são isolados por estabelecimento.
 - O tipo do evento é selecionado na criação do pedido, inclusive na compra do cliente. Em **Pedidos → detalhes → Editar evento**, o lojista altera o tipo, os detalhes e a data sem mudar status, estoque ou valor. Os tipos iniciais são Aniversário, Casamento, Batizado, Corporativo, Chá de Bebê e Outros.
-- **Marketing → Contatos e alertas → Configurar eventos e retornos** é exclusivo do Profissional. Permite cadastrar/renomear/desativar tipos, definir dias após entrega, meses de antecedência e mensagens. Campo de prazo vazio desabilita o gatilho; Outros permanece ativo como opção geral. Os padrões iniciais são 30 dias e 2 meses, ajustáveis por evento. Pedidos Pro podem substituir os prazos do seu tipo.
+- **Marketing → Configurar retornos** é exclusivo do Profissional. Permite cadastrar/renomear/desativar tipos, definir dias após entrega, meses de antecedência e mensagens. Campo de prazo vazio desabilita o gatilho; Outros permanece ativo como opção geral. Os padrões iniciais são 30 dias e 2 meses, ajustáveis por evento. Pedidos Pro podem substituir os prazos do seu tipo.
 - O alerta curto aparece exatamente na data de entrega + X dias do último pedido entregue do contato. O anual aparece durante o mês definido antes da ocorrência anual seguinte (ex.: dezembro com 2 meses → outubro). A virada de ano é considerada; 29/02 usa 28/02 nos anos comuns.
 - CRM exibe nome, WhatsApp, tipo/detalhes do evento, pedido e tipo de alerta, com filtros por contato, evento e gatilho. A tela calcula os alertas ao abrir/atualizar e se atualiza a cada minuto enquanto visível. Não há disparo automático de WhatsApp nem notificação fora da aplicação: o envio continua manual. Marcar contato realizado retira aquele alerta; a ocorrência anual seguinte recebe outra chave.
 - Somente compras entregues de contatos com autorização atual entram nas abordagens. Descadastro remove o contato das campanhas e do CRM. Alterar um telefone no cadastro não transfere a autorização de marketing para o novo número. Os endpoints e a edição dos prazos conferem o plano no servidor.
@@ -167,3 +167,11 @@ Quando o acesso ao gerenciador foi perdido, o operador autorizado do servidor po
 ### Classes de produto
 
 Em **Produtos → Classes de produto**, cadastre, renomeie ou exclua grupos. O editor do produto permite escolher a classe, e a listagem pode ser filtrada por classe ou por itens sem classe. Copiar um produto preserva a classe selecionada. Excluir uma classe mantém os produtos, seus preços e suas regras, removendo somente a classificação. Catálogos existentes continuam compatíveis; o servidor valida os vínculos dentro do catálogo de cada estabelecimento.
+
+### Uso do Marketing
+
+1. Em **Configurar retornos**, escolha um evento e ative o convite após a entrega e/ou o lembrete anual. A tela mostra exemplos das datas e permite salvar cada evento separadamente.
+2. Em **Editar mensagens e ver prévia**, personalize os textos e confira um exemplo preenchido.
+3. Em **Clientes para chamar**, abra o WhatsApp, revise/envie a mensagem e clique em **Já fiz o contato**. A tela explica quando não há contatos elegíveis.
+
+**Campanhas especiais** fica separado dos retornos habituais e mostra somente os campos necessários para o tipo de campanha escolhido.
