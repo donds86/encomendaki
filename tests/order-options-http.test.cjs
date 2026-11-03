@@ -12,7 +12,7 @@ test('HTTP: referências por item privadas, nascimento fora do acompanhamento e 
   const ingredient=(await req(path+'/ingredients','POST',{name:'Leite',unit:'g',opening:1000},cookie)).data.id;
   assert.equal((await req(path+'/recipes','POST',{kind:'filling',subject:'Ninho',sizeId:'s10',items:[{ingredientId:ingredient,quantity:100}]},cookie)).status,200);
   const png='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+aQ1sAAAAASUVORK5CYII=',line={product:'chocolate',size:'s10',quantity:1,fill:['Ninho'],floors:1,topper:false,alignModel:true,themeImage:png,notes:'Referência do item'},body={name:'Cliente',birthDate:'1990-05-12',delivery:'2099-12-01',pickupTime:'15:00',catalogVersion:saved.data.version,requestKey:crypto.randomUUID(),items:[line,{...line,notes:'Outro item'}]};
-  assert.equal((await req('/api/public/options-0/orders','POST',{...body,birthDate:undefined})).status,400);
+  const noBirth=await req('/api/public/options-0/orders','POST',{...body,birthDate:undefined});assert.equal(noBirth.status,201);assert.equal(noBirth.data.order.birthDate,'');
   const created=await req('/api/public/options-0/orders','POST',body);assert.equal(created.status,201,JSON.stringify(created.data));const order=created.data.order;
   assert.equal(order.items[0].hasThemeImage,true);assert.equal(order.items[0].themeImage,undefined);
   const reference=path+'/orders/'+order.id+'/reference?item=';
