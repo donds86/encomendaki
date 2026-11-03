@@ -163,3 +163,7 @@ Quando o acesso ao gerenciador foi perdido, o operador autorizado do servidor po
 - O alerta curto aparece exatamente na data de entrega + X dias do último pedido entregue do contato. O anual aparece durante o mês definido antes da ocorrência anual seguinte (ex.: dezembro com 2 meses → outubro). A virada de ano é considerada; 29/02 usa 28/02 nos anos comuns.
 - CRM exibe nome, WhatsApp, tipo/detalhes do evento, pedido e tipo de alerta, com filtros por contato, evento e gatilho. A tela calcula os alertas ao abrir/atualizar e se atualiza a cada minuto enquanto visível. Não há disparo automático de WhatsApp nem notificação fora da aplicação: o envio continua manual. Marcar contato realizado retira aquele alerta; a ocorrência anual seguinte recebe outra chave.
 - Somente compras entregues de contatos com autorização atual entram nas abordagens. Descadastro remove o contato das campanhas e do CRM. Alterar um telefone no cadastro não transfere a autorização de marketing para o novo número. Os endpoints e a edição dos prazos conferem o plano no servidor.
+
+### Classes de produto
+
+Em **Produtos → Classes de produto**, cadastre, renomeie ou exclua grupos. O editor do produto permite escolher a classe, e a listagem pode ser filtrada por classe ou por itens sem classe. Copiar um produto preserva a classe selecionada. Excluir uma classe mantém os produtos, seus preços e suas regras, removendo somente a classificação. Catálogos existentes continuam compatíveis; o servidor valida os vínculos dentro do catálogo de cada estabelecimento.
