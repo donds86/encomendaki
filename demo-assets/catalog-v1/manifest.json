@@ -1,0 +1,286 @@
+{
+  "purpose": "Catálogo inteiramente fictício para apresentações do EncomendAki",
+  "generator": "built-in image_gen",
+  "branding": {
+    "logo": {
+      "file": "logo.png",
+      "prompt": "Use case: logo-brand. Create a refined fictional bakery store logo for a software sales demonstration. Exact readable text: \"Confeitaria Demo\". A simple elegant whisk and small cake emblem, circular compact composition, warm cocoa linework and dusty rose accents, tasteful clean contemporary lettering, strong readability at small size. Transparent background. No real brand, no contact details, no extra text, no mockup or paper surface. Square logo asset."
+    },
+    "banner": {
+      "file": "banner.jpg",
+      "prompt": "Use case: product-mockup. Wide horizontal hero banner, approximately 3:1 composition, for a fictional bakery software demonstration shop. A beautiful premium chocolate celebration cake, a small ivory plate with assorted sweets, and a gift box of brownies arranged on the RIGHT half of a warm cream counter. LEFT half softly lit and uncluttered with ample blank space. Soft dusty rose background, subtle shadows, refined inviting editorial food photography. No text, no brand, no logos, no people, no watermark. Full dessert arrangement fits comfortably within frame."
+    }
+  },
+  "items": [
+    {
+      "id": "demo-v1-aurora-chocolate",
+      "name": "Bolo Aurora de Chocolate",
+      "category": "Bolos de Festa",
+      "price": 145,
+      "subject": "round chocolate celebration cake with glossy ganache, chocolate curls and strawberries",
+      "imageFile": "01-aurora-chocolate.jpg",
+      "prompt": "Use case: product-mockup. Create one fictional bakery catalog product illustration, square composition, editorial food photography style. Subject: a round chocolate celebration cake with glossy chocolate ganache, delicate chocolate curls and three strawberries. Whole cake fully visible, centered on an ivory cake stand, soft warm cream studio background, gentle daylight, pastel rose accent napkin. Premium inviting look, no people, no brands, no logos, no text, no watermark. This is an illustrative fictional demo product named Bolo Aurora de Chocolate. Single image, not a collage."
+    },
+    {
+      "id": "demo-v1-beija-flor-morango",
+      "name": "Bolo Beija-flor de Morango",
+      "category": "Bolos de Festa",
+      "price": 155,
+      "subject": "white and soft pink celebration cake decorated with fresh strawberries and delicate piped cream",
+      "imageFile": "02-beija-flor-morango.jpg",
+      "prompt": "Use case: product-mockup. Asset type: illustrative fictional bakery demo catalog product image. Subject: white and soft pink celebration cake decorated with fresh strawberries and delicate piped cream. Square composition, single product or small serving fully visible in center, consistent premium editorial food/product photography, cream studio backdrop, soft daylight, gentle blush pastel accent, ceramic serving ware when appropriate. No people, no brand, no logo, no letters, no text, no watermark. Single image, not collage. Fictional product: Bolo Beija-flor de Morango."
+    },
+    {
+      "id": "demo-v1-jardim-baunilha",
+      "name": "Bolo Jardim de Baunilha",
+      "category": "Bolos de Festa",
+      "price": 135,
+      "subject": "ivory vanilla celebration cake with small pastel buttercream flowers and subtle gold-colored sprinkles",
+      "imageFile": "03-jardim-baunilha.jpg",
+      "prompt": "Use case: product-mockup. Asset type: illustrative fictional bakery demo catalog product image. Subject: ivory vanilla celebration cake with small pastel buttercream flowers and subtle gold-colored sprinkles. Square composition, single product or small serving fully visible in center, consistent premium editorial food/product photography, cream studio backdrop, soft daylight, gentle blush pastel accent, ceramic serving ware when appropriate. No people, no brand, no logo, no letters, no text, no watermark. Single image, not collage. Fictional product: Bolo Jardim de Baunilha."
+    },
+    {
+      "id": "demo-v1-sonho-red-velvet",
+      "name": "Bolo Sonho Red Velvet",
+      "category": "Bolos de Festa",
+      "price": 165,
+      "subject": "red velvet layer cake with cream cheese frosting, red cake crumbs, one neat slice beside the cake",
+      "imageFile": "04-sonho-red-velvet.jpg",
+      "prompt": "Use case: product-mockup. Asset type: illustrative fictional bakery demo catalog product image. Subject: red velvet layer cake with cream cheese frosting, red cake crumbs, one neat slice beside the cake. Square composition, single product or small serving fully visible in center, consistent premium editorial food/product photography, cream studio backdrop, soft daylight, gentle blush pastel accent, ceramic serving ware when appropriate. No people, no brand, no logo, no letters, no text, no watermark. Single image, not collage. Fictional product: Bolo Sonho Red Velvet."
+    },
+    {
+      "id": "demo-v1-brisa-limao",
+      "name": "Bolo Brisa de Limão",
+      "category": "Bolos de Festa",
+      "price": 140,
+      "subject": "pale yellow lemon celebration cake with piped cream, lemon zest and thin lemon slices",
+      "imageFile": "05-brisa-limao.jpg",
+      "prompt": "Use case: product-mockup. Asset type: illustrative fictional bakery demo catalog product image. Subject: pale yellow lemon celebration cake with piped cream, lemon zest and thin lemon slices. Square composition, single product or small serving fully visible in center, consistent premium editorial food/product photography, cream studio backdrop, soft daylight, gentle blush pastel accent, ceramic serving ware when appropriate. No people, no brand, no logo, no letters, no text, no watermark. Single image, not collage. Fictional product: Bolo Brisa de Limão."
+    },
+    {
+      "id": "demo-v1-aconchego-fuba",
+      "name": "Bolo Aconchego de Fubá",
+      "category": "Bolos Caseiros",
+      "price": 42,
+      "subject": "golden Brazilian cornmeal ring cake on a ceramic plate, a small slice showing fluffy yellow crumb",
+      "imageFile": "06-aconchego-fuba.jpg",
+      "prompt": "Use case: product-mockup. Asset type: illustrative fictional bakery demo catalog product image. Subject: golden Brazilian cornmeal ring cake on a ceramic plate, a small slice showing fluffy yellow crumb. Square composition, single product or small serving fully visible in center, consistent premium editorial food/product photography, cream studio backdrop, soft daylight, gentle blush pastel accent, ceramic serving ware when appropriate. No people, no brand, no logo, no letters, no text, no watermark. Single image, not collage. Fictional product: Bolo Aconchego de Fubá."
+    },
+    {
+      "id": "demo-v1-sol-laranja",
+      "name": "Bolo Sol de Laranja",
+      "category": "Bolos Caseiros",
+      "price": 45,
+      "subject": "orange bundt cake with delicate citrus glaze and a fresh orange half nearby",
+      "imageFile": "07-sol-laranja.jpg",
+      "prompt": "Use case: product-mockup. Asset type: illustrative fictional bakery demo catalog product image. Subject: orange bundt cake with delicate citrus glaze and a fresh orange half nearby. Square composition, single product or small serving fully visible in center, consistent premium editorial food/product photography, cream studio backdrop, soft daylight, gentle blush pastel accent, ceramic serving ware when appropriate. No people, no brand, no logo, no letters, no text, no watermark. Single image, not collage. Fictional product: Bolo Sol de Laranja."
+    },
+    {
+      "id": "demo-v1-carinho-cenoura",
+      "name": "Bolo Carinho de Cenoura",
+      "category": "Bolos Caseiros",
+      "price": 48,
+      "subject": "Brazilian carrot bundt cake with dark chocolate sauce flowing down the sides",
+      "imageFile": "08-carinho-cenoura.jpg",
+      "prompt": "Use case: product-mockup. Asset type: illustrative fictional bakery demo catalog product image. Subject: Brazilian carrot bundt cake with dark chocolate sauce flowing down the sides. Square composition, single product or small serving fully visible in center, consistent premium editorial food/product photography, cream studio backdrop, soft daylight, gentle blush pastel accent, ceramic serving ware when appropriate. No people, no brand, no logo, no letters, no text, no watermark. Single image, not collage. Fictional product: Bolo Carinho de Cenoura."
+    },
+    {
+      "id": "demo-v1-nuvem-coco",
+      "name": "Bolo Nuvem de Coco",
+      "category": "Bolos Caseiros",
+      "price": 46,
+      "subject": "small rectangular coconut cake with snowy shredded coconut frosting and a slice beside it",
+      "imageFile": "09-nuvem-coco.jpg",
+      "prompt": "Use case: product-mockup. Asset type: illustrative fictional bakery demo catalog product image. Subject: small rectangular coconut cake with snowy shredded coconut frosting and a slice beside it. Square composition, single product or small serving fully visible in center, consistent premium editorial food/product photography, cream studio backdrop, soft daylight, gentle blush pastel accent, ceramic serving ware when appropriate. No people, no brand, no logo, no letters, no text, no watermark. Single image, not collage. Fictional product: Bolo Nuvem de Coco."
+    },
+    {
+      "id": "demo-v1-campo-milho",
+      "name": "Bolo Campo de Milho",
+      "category": "Bolos Caseiros",
+      "price": 44,
+      "subject": "rustic golden sweet corn cake on a simple ivory plate with a small corn ear in the background",
+      "imageFile": "10-campo-milho.jpg",
+      "prompt": "Use case: product-mockup. Asset type: illustrative fictional bakery demo catalog product image. Subject: rustic golden sweet corn cake on a simple ivory plate with a small corn ear in the background. Square composition, single product or small serving fully visible in center, consistent premium editorial food/product photography, cream studio backdrop, soft daylight, gentle blush pastel accent, ceramic serving ware when appropriate. No people, no brand, no logo, no letters, no text, no watermark. Single image, not collage. Fictional product: Bolo Campo de Milho."
+    },
+    {
+      "id": "demo-v1-brigadeiro-estrela",
+      "name": "Brigadeiro Estrela",
+      "category": "Doces por Cento",
+      "price": 145,
+      "subject": "six glossy Brazilian chocolate brigadeiro truffles covered with fine chocolate sprinkles in small white paper cups",
+      "imageFile": "11-brigadeiro-estrela.jpg",
+      "prompt": "Use case: product-mockup. Asset type: illustrative fictional bakery demo catalog product image. Subject: six glossy Brazilian chocolate brigadeiro truffles covered with fine chocolate sprinkles in small white paper cups. Square composition, single product or small serving fully visible in center, consistent premium editorial food/product photography, cream studio backdrop, soft daylight, gentle blush pastel accent, ceramic serving ware when appropriate. No people, no brand, no logo, no letters, no text, no watermark. Single image, not collage. Fictional product: Brigadeiro Estrela."
+    },
+    {
+      "id": "demo-v1-beijinho-perola",
+      "name": "Beijinho Pérola",
+      "category": "Doces por Cento",
+      "price": 140,
+      "subject": "six white coconut Brazilian beijinho truffles coated in fine coconut flakes, each with a single clove",
+      "imageFile": "12-beijinho-perola.jpg",
+      "prompt": "Use case: product-mockup. Asset type: illustrative fictional bakery demo catalog product image. Subject: six white coconut Brazilian beijinho truffles coated in fine coconut flakes, each with a single clove. Square composition, single product or small serving fully visible in center, consistent premium editorial food/product photography, cream studio backdrop, soft daylight, gentle blush pastel accent, ceramic serving ware when appropriate. No people, no brand, no logo, no letters, no text, no watermark. Single image, not collage. Fictional product: Beijinho Pérola."
+    },
+    {
+      "id": "demo-v1-docinho-ninho-encanto",
+      "name": "Docinho Encanto de Leite",
+      "category": "Doces por Cento",
+      "price": 155,
+      "subject": "six pale powdered milk truffles in white paper cups with a delicate milk powder coating",
+      "imageFile": "13-docinho-ninho-encanto.jpg",
+      "prompt": "Use case: product-mockup. Asset type: illustrative fictional bakery demo catalog product image. Subject: six pale powdered milk truffles in white paper cups with a delicate milk powder coating. Square composition, single product or small serving fully visible in center, consistent premium editorial food/product photography, cream studio backdrop, soft daylight, gentle blush pastel accent, ceramic serving ware when appropriate. No people, no brand, no logo, no letters, no text, no watermark. Single image, not collage. Fictional product: Docinho Encanto de Leite."
+    },
+    {
+      "id": "demo-v1-moranguinho-alegria",
+      "name": "Moranguinho Alegria",
+      "category": "Doces por Cento",
+      "price": 150,
+      "subject": "six soft pink strawberry brigadeiro truffles with tiny sugar pearls in white paper cups",
+      "imageFile": "14-moranguinho-alegria.jpg",
+      "prompt": "Use case: product-mockup. Asset type: illustrative fictional bakery demo catalog product image. Subject: six soft pink strawberry brigadeiro truffles with tiny sugar pearls in white paper cups. Square composition, single product or small serving fully visible in center, consistent premium editorial food/product photography, cream studio backdrop, soft daylight, gentle blush pastel accent, ceramic serving ware when appropriate. No people, no brand, no logo, no letters, no text, no watermark. Single image, not collage. Fictional product: Moranguinho Alegria."
+    },
+    {
+      "id": "demo-v1-nozes-douradas",
+      "name": "Camafeu Nozes Douradas",
+      "category": "Doces por Cento",
+      "price": 185,
+      "subject": "six elegant walnut confections with ivory fondant glaze and a half walnut on top",
+      "imageFile": "15-nozes-douradas.jpg",
+      "prompt": "Use case: product-mockup. Asset type: illustrative fictional bakery demo catalog product image. Subject: six elegant walnut confections with ivory fondant glaze and a half walnut on top. Square composition, single product or small serving fully visible in center, consistent premium editorial food/product photography, cream studio backdrop, soft daylight, gentle blush pastel accent, ceramic serving ware when appropriate. No people, no brand, no logo, no letters, no text, no watermark. Single image, not collage. Fictional product: Camafeu Nozes Douradas."
+    },
+    {
+      "id": "demo-v1-torta-limao-serenata",
+      "name": "Torta Serenata de Limão",
+      "category": "Tortas e Sobremesas",
+      "price": 89,
+      "subject": "round lemon tart with biscuit crust and beautiful toasted meringue peaks",
+      "imageFile": "16-torta-limao-serenata.jpg",
+      "prompt": "Use case: product-mockup. Asset type: illustrative fictional bakery demo catalog product image. Subject: round lemon tart with biscuit crust and beautiful toasted meringue peaks. Square composition, single product or small serving fully visible in center, consistent premium editorial food/product photography, cream studio backdrop, soft daylight, gentle blush pastel accent, ceramic serving ware when appropriate. No people, no brand, no logo, no letters, no text, no watermark. Single image, not collage. Fictional product: Torta Serenata de Limão."
+    },
+    {
+      "id": "demo-v1-torta-chocolate-luar",
+      "name": "Torta Luar de Chocolate",
+      "category": "Tortas e Sobremesas",
+      "price": 99,
+      "subject": "round dark chocolate mousse tart with glossy ganache and chocolate curls",
+      "imageFile": "17-torta-chocolate-luar.jpg",
+      "prompt": "Use case: product-mockup. Asset type: illustrative fictional bakery demo catalog product image. Subject: round dark chocolate mousse tart with glossy ganache and chocolate curls. Square composition, single product or small serving fully visible in center, consistent premium editorial food/product photography, cream studio backdrop, soft daylight, gentle blush pastel accent, ceramic serving ware when appropriate. No people, no brand, no logo, no letters, no text, no watermark. Single image, not collage. Fictional product: Torta Luar de Chocolate."
+    },
+    {
+      "id": "demo-v1-cheesecake-bosque",
+      "name": "Cheesecake Bosque Encantado",
+      "category": "Tortas e Sobremesas",
+      "price": 115,
+      "subject": "creamy round cheesecake topped with red berry compote, strawberries and blueberries",
+      "imageFile": "18-cheesecake-bosque.jpg",
+      "prompt": "Use case: product-mockup. Asset type: illustrative fictional bakery demo catalog product image. Subject: creamy round cheesecake topped with red berry compote, strawberries and blueberries. Square composition, single product or small serving fully visible in center, consistent premium editorial food/product photography, cream studio backdrop, soft daylight, gentle blush pastel accent, ceramic serving ware when appropriate. No people, no brand, no logo, no letters, no text, no watermark. Single image, not collage. Fictional product: Cheesecake Bosque Encantado."
+    },
+    {
+      "id": "demo-v1-banoffee-abraco",
+      "name": "Banoffee Abraço Doce",
+      "category": "Tortas e Sobremesas",
+      "price": 95,
+      "subject": "round banoffee pie with banana slices, caramel, whipped cream swirls and cocoa dust",
+      "imageFile": "19-banoffee-abraco.jpg",
+      "prompt": "Use case: product-mockup. Asset type: illustrative fictional bakery demo catalog product image. Subject: round banoffee pie with banana slices, caramel, whipped cream swirls and cocoa dust. Square composition, single product or small serving fully visible in center, consistent premium editorial food/product photography, cream studio backdrop, soft daylight, gentle blush pastel accent, ceramic serving ware when appropriate. No people, no brand, no logo, no letters, no text, no watermark. Single image, not collage. Fictional product: Banoffee Abraço Doce."
+    },
+    {
+      "id": "demo-v1-pave-harmonia",
+      "name": "Pavê Harmonia",
+      "category": "Tortas e Sobremesas",
+      "price": 78,
+      "subject": "rectangular clear glass dish showing neat layers of vanilla cream and chocolate biscuit dessert",
+      "imageFile": "20-pave-harmonia.jpg",
+      "prompt": "Use case: product-mockup. Asset type: illustrative fictional bakery demo catalog product image. Subject: rectangular clear glass dish showing neat layers of vanilla cream and chocolate biscuit dessert. Square composition, single product or small serving fully visible in center, consistent premium editorial food/product photography, cream studio backdrop, soft daylight, gentle blush pastel accent, ceramic serving ware when appropriate. No people, no brand, no logo, no letters, no text, no watermark. Single image, not collage. Fictional product: Pavê Harmonia."
+    },
+    {
+      "id": "demo-v1-coxinha-festa",
+      "name": "Coxinha Festa Feliz",
+      "category": "Salgados para Festas",
+      "price": 110,
+      "subject": "small golden Brazilian chicken coxinhas neatly arranged in an ivory bowl with one open piece showing chicken filling",
+      "imageFile": "21-coxinha-festa.jpg",
+      "prompt": "Use case: product-mockup. Asset type: illustrative fictional bakery demo catalog product image. Subject: small golden Brazilian chicken coxinhas neatly arranged in an ivory bowl with one open piece showing chicken filling. Square composition, single product or small serving fully visible in center, consistent premium editorial food/product photography, cream studio backdrop, soft daylight, gentle blush pastel accent, ceramic serving ware when appropriate. No people, no brand, no logo, no letters, no text, no watermark. Single image, not collage. Fictional product: Coxinha Festa Feliz."
+    },
+    {
+      "id": "demo-v1-bolinha-queijo",
+      "name": "Bolinha de Queijo Solar",
+      "category": "Salgados para Festas",
+      "price": 105,
+      "subject": "small golden fried cheese balls in an ivory bowl, one split showing melted cheese",
+      "imageFile": "22-bolinha-queijo.jpg",
+      "prompt": "Use case: product-mockup. Asset type: illustrative fictional bakery demo catalog product image. Subject: small golden fried cheese balls in an ivory bowl, one split showing melted cheese. Square composition, single product or small serving fully visible in center, consistent premium editorial food/product photography, cream studio backdrop, soft daylight, gentle blush pastel accent, ceramic serving ware when appropriate. No people, no brand, no logo, no letters, no text, no watermark. Single image, not collage. Fictional product: Bolinha de Queijo Solar."
+    },
+    {
+      "id": "demo-v1-risole-carinho",
+      "name": "Risole Carinho",
+      "category": "Salgados para Festas",
+      "price": 110,
+      "subject": "golden half-moon Brazilian risoles with fine crispy coating, one open showing a savory creamy filling",
+      "imageFile": "23-risole-carinho.jpg",
+      "prompt": "Use case: product-mockup. Asset type: illustrative fictional bakery demo catalog product image. Subject: golden half-moon Brazilian risoles with fine crispy coating, one open showing a savory creamy filling. Square composition, single product or small serving fully visible in center, consistent premium editorial food/product photography, cream studio backdrop, soft daylight, gentle blush pastel accent, ceramic serving ware when appropriate. No people, no brand, no logo, no letters, no text, no watermark. Single image, not collage. Fictional product: Risole Carinho."
+    },
+    {
+      "id": "demo-v1-esfiha-jardim",
+      "name": "Mini Esfiha Jardim",
+      "category": "Salgados para Festas",
+      "price": 120,
+      "subject": "small open baked beef esfihas with golden dough edges on an ivory serving plate",
+      "imageFile": "24-esfiha-jardim.jpg",
+      "prompt": "Use case: product-mockup. Asset type: illustrative fictional bakery demo catalog product image. Subject: small open baked beef esfihas with golden dough edges on an ivory serving plate. Square composition, single product or small serving fully visible in center, consistent premium editorial food/product photography, cream studio backdrop, soft daylight, gentle blush pastel accent, ceramic serving ware when appropriate. No people, no brand, no logo, no letters, no text, no watermark. Single image, not collage. Fictional product: Mini Esfiha Jardim."
+    },
+    {
+      "id": "demo-v1-quiche-delicadeza",
+      "name": "Mini Quiche Delicadeza",
+      "category": "Salgados para Festas",
+      "price": 155,
+      "subject": "small golden cheese and leek quiches with crisp pastry shells on an ivory serving board",
+      "imageFile": "25-quiche-delicadeza.jpg",
+      "prompt": "Use case: product-mockup. Asset type: illustrative fictional bakery demo catalog product image. Subject: small golden cheese and leek quiches with crisp pastry shells on an ivory serving board. Square composition, single product or small serving fully visible in center, consistent premium editorial food/product photography, cream studio backdrop, soft daylight, gentle blush pastel accent, ceramic serving ware when appropriate. No people, no brand, no logo, no letters, no text, no watermark. Single image, not collage. Fictional product: Mini Quiche Delicadeza."
+    },
+    {
+      "id": "demo-v1-kit-festa-aurora",
+      "name": "Kit Festa Aurora",
+      "category": "Kits e Complementos",
+      "price": 249,
+      "subject": "fictional small party arrangement with a petite pastel birthday cake, a plate of chocolate truffles and a plate of savory pastries, no text or brands",
+      "imageFile": "26-kit-festa-aurora.jpg",
+      "prompt": "Use case: product-mockup. Asset type: illustrative fictional bakery demo catalog product image. Subject: fictional small party arrangement with a petite pastel birthday cake, a plate of chocolate truffles and a plate of savory pastries, no text or brands. Square composition, single product or small serving fully visible in center, consistent premium editorial food/product photography, cream studio backdrop, soft daylight, gentle blush pastel accent, ceramic serving ware when appropriate. No people, no brand, no logo, no letters, no text, no watermark. Single image, not collage. Fictional product: Kit Festa Aurora."
+    },
+    {
+      "id": "demo-v1-caixa-presente-encanto",
+      "name": "Caixa Presente Encanto",
+      "category": "Kits e Complementos",
+      "price": 79,
+      "subject": "open blush pink gift box with a tidy assortment of chocolate truffles, coconut sweets and two mini brownies, no printed labels or logos",
+      "imageFile": "27-caixa-presente-encanto.jpg",
+      "prompt": "Use case: product-mockup. Asset type: illustrative fictional bakery demo catalog product image. Subject: open blush pink gift box with a tidy assortment of chocolate truffles, coconut sweets and two mini brownies, no printed labels or logos. Square composition, single product or small serving fully visible in center, consistent premium editorial food/product photography, cream studio backdrop, soft daylight, gentle blush pastel accent, ceramic serving ware when appropriate. No people, no brand, no logo, no letters, no text, no watermark. Single image, not collage. Fictional product: Caixa Presente Encanto."
+    },
+    {
+      "id": "demo-v1-brownies-afeto",
+      "name": "Caixa de Brownies Afeto",
+      "category": "Kits e Complementos",
+      "price": 49,
+      "subject": "six rich square chocolate brownies with thin glossy crackled tops in a plain kraft gift box",
+      "imageFile": "28-brownies-afeto.jpg",
+      "prompt": "Use case: product-mockup. Asset type: illustrative fictional bakery demo catalog product image. Subject: six rich square chocolate brownies with thin glossy crackled tops in a plain kraft gift box. Square composition, single product or small serving fully visible in center, consistent premium editorial food/product photography, cream studio backdrop, soft daylight, gentle blush pastel accent, ceramic serving ware when appropriate. No people, no brand, no logo, no letters, no text, no watermark. Single image, not collage. Fictional product: Caixa de Brownies Afeto."
+    },
+    {
+      "id": "demo-v1-velas-coloridas",
+      "name": "Kit Velas Coloridas",
+      "category": "Kits e Complementos",
+      "price": 12,
+      "subject": "unlit pastel birthday candles arranged neatly beside a plain unbranded cream paper sleeve, small product still life",
+      "imageFile": "29-velas-coloridas.jpg",
+      "prompt": "Use case: product-mockup. Asset type: illustrative fictional bakery demo catalog product image. Subject: unlit pastel birthday candles arranged neatly beside a plain unbranded cream paper sleeve, small product still life. Square composition, single product or small serving fully visible in center, consistent premium editorial food/product photography, cream studio backdrop, soft daylight, gentle blush pastel accent, ceramic serving ware when appropriate. No people, no brand, no logo, no letters, no text, no watermark. Single image, not collage. Fictional product: Kit Velas Coloridas."
+    },
+    {
+      "id": "demo-v1-topo-celebrar",
+      "name": "Topo Celebração Floral",
+      "category": "Kits e Complementos",
+      "price": 25,
+      "subject": "decorative pastel paper cake topper with generic abstract flowers, stars and hearts on two slim wooden sticks, no letters, no text",
+      "imageFile": "30-topo-celebrar.jpg",
+      "prompt": "Use case: product-mockup. Asset type: illustrative fictional bakery demo catalog product image. Subject: decorative pastel paper cake topper with generic abstract flowers, stars and hearts on two slim wooden sticks, no letters, no text. Square composition, single product or small serving fully visible in center, consistent premium editorial food/product photography, cream studio backdrop, soft daylight, gentle blush pastel accent, ceramic serving ware when appropriate. No people, no brand, no logo, no letters, no text, no watermark. Single image, not collage. Fictional product: Topo Celebração Floral."
+    }
+  ]
+}

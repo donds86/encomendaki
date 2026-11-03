@@ -177,3 +177,9 @@ Em **Produtos → Classes de produto**, cadastre, renomeie ou exclua grupos. O e
 **Campanhas especiais** fica separado dos retornos habituais e mostra somente os campos necessários para o tipo de campanha escolhido.
 
 A montagem padrão do bolo tem quatro etapas: Definição, Recheios, Personalização e Agendamento. Ao concluir o agendamento, o item vai direto ao carrinho, que concentra a revisão e as condições de pagamento. Não há etapa de revisão separada. A compra não solicita novos consentimentos de marketing; a ausência do campo preserva autorizações anteriormente registradas e não concede autorização a contatos novos.
+
+### Catálogo fictício para apresentações
+
+`backend/showcase-catalog.cjs` e `scripts/import-showcase-catalog.cjs` acrescentam 30 produtos fictícios em seis categorias à loja `demo`, com descrições, preços, imagens ilustrativas, variações e complementos. Os dois produtos anteriores, pedidos, usuários e configurações ficam preservados. Logo e banner gerados são adicionados somente se esses campos estiverem vazios. A importação registra backup em auditoria e exige conferência explícita da versão do catálogo.
+
+As 30 imagens de produto, a logo e o banner foram gerados com a ferramenta integrada `image_gen`; os arquivos finais e todos os prompts estão em `demo-assets/catalog-v1/manifest.json`. O catálogo inteiro permanece abaixo do limite de edição da aplicação. Os bolos desta demonstração usam `sizePricesAreFinal` para manter os preços dos tamanhos como valores finais, sem mudar o cálculo dos produtos anteriores.
