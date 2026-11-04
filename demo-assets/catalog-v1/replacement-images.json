@@ -1,0 +1,16 @@
+{
+  "generator": "built-in image_gen",
+  "purpose": "Imagens fictícias exclusivas para os dois produtos originais da demo",
+  "items": [
+    {
+      "id": "chocolate",
+      "file": "33-chocolate-dos-sonhos.jpg",
+      "prompt": "Use case: product-mockup. Square catalog photograph for fictional bakery product Chocolate dos sonhos. A low round chocolate sponge cake with generous creamy brigadeiro frosting, dense chocolate sprinkles on the sides and large piped brigadeiro rosettes on top. No fruit, no drip glaze. On a simple ivory ceramic plate, warm cream background, soft window light, three-quarter view, entire cake visible with breathing room. Appetizing realistic food photography. No text, no logos, no watermarks."
+    },
+    {
+      "id": "morango",
+      "file": "34-morango-suspiros.jpg",
+      "prompt": "Use case: product-mockup. Square catalog photograph for fictional bakery product Morango & suspiros. A rustic round vanilla sponge cake covered in white whipped cream, topped with fresh sliced strawberries and small white meringue kisses, a few visible pale golden sponge layers, simple elegant decoration. No pink icing, no bird ornaments, no fondant. On a flat white ceramic cake plate, soft pale peach backdrop and natural window lighting, three-quarter view, entire cake visible with breathing room. Realistic appetizing food photography. No text, no logos, no watermarks."
+    }
+  ]
+}
