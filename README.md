@@ -42,7 +42,7 @@ As migrações idempotentes são aplicadas na inicialização. O healthcheck `/h
 
 ## Regras de preço
 
-Preço do tamanho + diferença do preço base do produto em relação a R$ 65 + recheios extras + adicional fixo por andar + topo. O backend valida preços não negativos, recalcula em centavos e salva os valores no pedido. Até três andares e seis recheios. O módulo Marketing é restrito ao plano Profissional, com bloqueio também na API; os demais recursos continuam disponíveis nos dois planos. Cobrança automática não está implementada.
+Preço do tamanho + diferença do preço base do produto em relação a R$ 65 + recheios extras + adicional fixo por andar + topo. O backend valida preços não negativos, recalcula em centavos e salva os valores no pedido. Até três andares e seis recheios. O módulo Marketing é restrito ao plano Profissional, com bloqueio também na API; os demais recursos continuam disponíveis nos dois planos. Cobrança automática opcional de licenças via Asaas: consulte [BILLING.md](BILLING.md) para configuração por revenda, homologação e limites. O modo manual/permanente continua disponível.
 
 ## Verificação
 

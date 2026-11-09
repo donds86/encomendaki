@@ -48,3 +48,7 @@ O acompanhamento usa token de 256 bits e lookup por SHA-256 em order_tracking. O
 A migração maysa-gledson-v1 atende exclusivamente ao vínculo solicitado: demonstração Maysa não vinculada e revenda Gledson, com correspondências únicas. A ação é auditada e não amplia o acesso de outras revendas. Em casos ambíguos, não há alteração automática.
 
 Marketing: marketing_campaigns guarda configurações por tenant, marketing_contacts registra a autorização mais recente por telefone, marketing_deliveries deduplica o registro manual por campanha/telefone/ocasião. Os dados são criados transacionalmente na inicialização; nenhuma mensagem é enviada em segundo plano. Segmentos ficam no catálogo versionado (commerce.segmentKey).
+
+
+## Cobrança das licenças
+Integração opcional Asaas com recebimento na conta de cada revenda. Tabelas billing_accounts, billing_subscriptions, billing_payments e billing_events; conexões cifradas com AES-256-GCM, token de webhook armazenado como hash. Webhook autenticado é a exceção específica à validação Origin de navegador e consulta o estado atual na API; autenticação e Origin dos demais endpoints permanecem obrigatórios. Validade financeira é calculada a partir das cobranças, sem remover suspensão administrativa. Conciliação periódica e manual, provisionamento retomável por referência externa, bloqueio de troca de revenda com assinatura em andamento. Consulte BILLING.md. Nenhuma licença existente é convertida por migração.
