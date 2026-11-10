@@ -190,3 +190,5 @@ A loja exibe as classes cadastradas também quando existe apenas uma categoria o
 ## Loja pública de demonstração comercial
 
 Somente o tenant dedicado `2b623554-365c-4cd7-9a4f-9a834b454b9a`, com slug `demo`, usa checkout simulado. O link público não dá acesso aos cadastros. A API pública apresenta WhatsApp fictício `+55 (00) 00000-0000` sem alterar o telefone cadastrado. Na finalização, calcula os valores com as mesmas regras, mostra a mensagem na página e não abre wa.me, não persiste pedidos/clientes/referências nem gera rastreamento ou estoque. O visitante é orientado a usar dados fictícios. O painel autenticado do proprietário não é bloqueado e as demais lojas mantêm o fluxo real.
+
+O acesso de estabelecimento do tenant demo é somente leitura (inclusive APIs, senha e recuperação de senha). O proprietário administra a demonstração pelo portal /admin. A troca de credenciais do acesso compartilhado revoga sessões e links anteriores; não cria caixa de e-mail no provedor.
