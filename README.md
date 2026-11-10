@@ -185,3 +185,8 @@ A montagem padrão do bolo tem quatro etapas: Definição, Recheios, Personaliza
 As 30 imagens de produto, a logo e o banner foram gerados com a ferramenta integrada `image_gen`; os arquivos finais e todos os prompts estão em `demo-assets/catalog-v1/manifest.json`. O catálogo inteiro permanece abaixo do limite de edição da aplicação. Os bolos desta demonstração usam `sizePricesAreFinal` para manter os preços dos tamanhos como valores finais, sem mudar o cálculo dos produtos anteriores.
 
 A loja exibe as classes cadastradas também quando existe apenas uma categoria ou quando uma classe ainda está sem produtos. Selecionar uma classe vazia mostra uma mensagem própria. No editor de perguntas e regras, o modelo de compra destaca os campos de lote/sabores e os erros aparecem dentro do modal. `scripts/complete-demo-images.cjs` completa somente fotos ausentes e classificação vazia dos dois produtos originais da demo, com prévia, conferência de versão e backup em auditoria.
+
+
+## Loja pública de demonstração comercial
+
+Somente o tenant dedicado `2b623554-365c-4cd7-9a4f-9a834b454b9a`, com slug `demo`, usa checkout simulado. O link público não dá acesso aos cadastros. A API pública apresenta WhatsApp fictício `+55 (00) 00000-0000` sem alterar o telefone cadastrado. Na finalização, calcula os valores com as mesmas regras, mostra a mensagem na página e não abre wa.me, não persiste pedidos/clientes/referências nem gera rastreamento ou estoque. O visitante é orientado a usar dados fictícios. O painel autenticado do proprietário não é bloqueado e as demais lojas mantêm o fluxo real.
